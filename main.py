@@ -5,14 +5,14 @@ while True:
         print("Exiting")
         break
     elif cop == 1:
-        cs1 = int(input("Length: "))
-        cs2 = int(input("Width: "))
-        cs3 = int(input("Height: "))
+        cs1 = float(input("Length: "))
+        cs2 = float(input("Width: "))
+        cs3 = float(input("Height: "))
         print(cs1 * cs2 * cs3, "^3")
     elif cop == 2:
-        base = int(input("Base: "))
-        height = int(input("Height: "))
-        thirdd = int(input("3rd dimension: "))
+        base = float(input("Base: "))
+        height = float(input("Height: "))
+        thirdd = float(input("3rd dimension: "))
         x = base * height
         y = x / 2
         vol = y * thirdd
